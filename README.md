@@ -24,17 +24,17 @@
 ## Tasks:
 
 * User Stories (and accessibility to everyone) 
-    [x] Make manageable user stories
+    * [x] Make manageable user stories
 * Github repo
-    [x] New Repo
-    [x] File issue for each user story
+    * [x] New Repo
+    * [x] File issue for each user story
 * Three pages:
-    [x] homepage
-    [x] age checker
-        [x] input box
-        [x] submit button
-    [x] a success page for eligible users
-    [x] an error page for those too young to proceed
+    * [x] homepage
+    * [x] age checker
+        * [x] input box
+        * [x] submit button
+    * [x] a success page for eligible users
+    * [x] an error page for those too young to proceed
 * Accessibility
 
 Useful resource:
