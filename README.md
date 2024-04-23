@@ -37,6 +37,6 @@
     * [x] an error page for those too young to proceed
 * Accessibility
 
-Useful resource:
+## Useful resources:
 
 [W3Schools](https://www.w3schools.com/accessibility/accessibility_autocomplete.php)
