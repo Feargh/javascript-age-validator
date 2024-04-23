@@ -1,6 +1,6 @@
 # Turn2Us Tech Challenge:
 
-## User stories:
+## User stories:
 
 * As a user I want to be able to input my age to see if I am eligible for certain benefits
 * As a user I want to be able to use a screen reader
