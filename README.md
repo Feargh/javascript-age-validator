@@ -13,7 +13,7 @@
     * User needs to be prompted if added the wrong info
 * User data should be processed securely
 
-## Goal:
+## Goal of Challenge:
 
 * Accessibility is a core value of Turn2Us
 
