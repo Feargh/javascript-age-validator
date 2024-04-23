@@ -36,7 +36,7 @@ function validateBirthdate() {
   if (!day || !month || !year) {
     alert("Please fill in all fields.");
     return;
-  } else if (year < 1900) {
+  } else if (year < 1900 || year > 2024) {
     alert("Please check the year and enter in the format YYYY")
     return false;
   }
