@@ -1,0 +1,24 @@
+nav {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    border-bottom: 2px solid black;
+}
+body {
+    background-color: pink;
+}
+h1 {
+    font-size: 4rem;
+}
+
+#landingBanner {
+    max-width: 500px;
+    border-left: auto;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }

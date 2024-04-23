@@ -17,6 +17,7 @@ function validateForm() {
         window.location.href = "success.html";
       }, 0);
     } else {
+        alert("You must be over 18 to use this service")
         return valid
     }
     
@@ -36,7 +37,8 @@ function validateBirthdate() {
     alert("Please fill in all fields.");
     return;
   } else if (year < 1900) {
-    alert("Please check the year")
+    alert("Please check the year and enter in the format YYYY")
+    return false;
   }
 
     let birthdate = new Date(year, month, day);

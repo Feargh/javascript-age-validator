@@ -33,8 +33,8 @@
     [x] age checker
         [x] input box
         [x] submit button
-    [] a success page for eligible users
-    [] an error page for those too young to proceed
+    [x] a success page for eligible users
+    [x] an error page for those too young to proceed
 * Accessibility
 
 Useful resource:
