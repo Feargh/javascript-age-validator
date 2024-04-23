@@ -1,4 +1,4 @@
-# Turn2Us Tech Challenge Todo:
+# Turn2Us Tech Challenge:
 
 ## User stories:
 
