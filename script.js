@@ -7,7 +7,7 @@ function validateForm() {
     console.log("console.log of valid, is it valid? " + valid)
     
     // check birthdate
-	valid = validateBirthdate();
+	valid = validateBirthdate(18);
 
     console.log(`Valid after DOB check: ${valid}`)
     // return valid;
@@ -23,25 +23,28 @@ function validateForm() {
     
 }
 
-function validateBirthdate() {
+function validateBirthdate(desiredAge) {
     // get current date
     let currentDate = new Date();
 
 	// get input date
-    let day = document.getElementById("dobDay").value;
-    let month = document.getElementById("dobMonth").value;
-    let year = document.getElementById("dobYear").value;
+    let enteredDOB = document.getElementById("dob").value;
+    console.log(enteredDOB);
+
+    // let day = document.getElementById("dobDay").value;
+    // let month = document.getElementById("dobMonth").value;
+    // let year = document.getElementById("dobYear").value;
 
       // Check if all fields are filled
-  if (!day || !month || !year) {
-    alert("Please fill in all fields.");
-    return;
-  } else if (year < 1900 || year > 2024) {
-    alert("Please check the year and enter in the format YYYY")
-    return false;
-  }
+  // if (!day || !month || !year) {
+  //   alert("Please fill in all fields.");
+  //   return;
+  // } else if (year < 1900 || year > 2024) {
+  //   alert("Please check the year and enter in the format YYYY")
+  //   return false;
+  // }
 
-    let birthdate = new Date(year, month, day);
+    let birthdate = new Date(enteredDOB);
 
 	// return if age is over 18
     // let age = currentDate.getFullYear() - birthdate.getFullYear();
@@ -70,5 +73,5 @@ function validateBirthdate() {
     //     window.location.href = "success.html";
     // }
 
-    return age >= 18;
+    return age >= desiredAge;
 }

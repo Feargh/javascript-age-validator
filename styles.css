@@ -5,18 +5,18 @@ nav {
     border-bottom: 2px solid black;
 }
 body {
-    background-color: pink;
+    background-color: #3c4142;
     max-width: 700px;
-    border-left: auto;
-    border-right: auto;
+    /* border-left: auto;
+    border-right: auto; */
 
 }
 h1 {
     font-size: 4rem;
 }
 
-#landingBanner {
-    max-width: 500px;
+img {
+    max-width: 600px;
     border-left: auto;
 }
 
@@ -33,4 +33,24 @@ h1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
+  }
+
+
+  body {
+    font-family: 'Courier New', Courier, monospace;
+    width: 50%;
+    margin: auto;
+  }
+  .vault-style {
+    background-color: #1b1e21;
+    border: 3px solid #3c4142;
+    padding: 20px;
+    color: #b2ea9e;
+  }
+  input, button {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #1b1e21;
+    border: 1px solid #3c4142;
+    padding: 5px;
+    color: #b2ea9e;
   }

@@ -1,25 +1,26 @@
-# Turn2Us Tech Challenge:
+![Desert landscape with a vault in the side of a cliff](/images/Vault.png)
+
+# Javascript Age Validator
 
 ## User stories:
 
-* As a user I want to be able to input my age to see if I am eligible for certain benefits
-* As a user I want to be able to use a screen reader
-* As a user I need to tab through HTML elements on screen
+* I want to be able to input my age to see if I am eligible
+* I want to be able to use a screen reader
+* I need to tab through HTML elements on screen
 * As a low-vision user, I need high contrast and bigger text
-* Easy to use so it's easy to understand for everyone
-* Eligibility Feedback needed:
-    * User needs to be rejected if ineligible (under 18)
-    * User needs to be accepted if eligible (over 18)
-    * User needs to be prompted if added the wrong info
-* User data should be processed securely
+* Easy of use so, it's understandable for everyone
+* Eligibility Feedback needed for user:
+    * Rejected if ineligible
+    * Accepted if eligible
+    * Prompted if added the wrong info
+* Data should be processed securely
 
-## Goal of Challenge:
+## Project Goals:
 
-* Accessibility is a core value of Turn2Us
-
-* Demonstrate your ability to plan
+* Demonstrate planning and thought process
+* Accessibility
 * Tackle basic web development tasks
-* Three hours and have fun! 😊
+* Show personality and make the project interesting
 
 ## Tasks:
 
@@ -36,6 +37,7 @@
     * [x] a success page for eligible users
     * [x] an error page for those too young to proceed
 * Accessibility
+    * [] Has the redesign affected the accessibility
 
 ## Useful resources:
 
